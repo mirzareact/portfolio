@@ -252,7 +252,7 @@ const projects = [
       },
     ],
     image: contacts,
-    main_link: "https://mirza-calculator-react.netlify.app/",
+    main_link: "https://mirza-contact-manager-react.netlify.app/",
     source_code_link: "https://github.com/mirzareact/contacts-app",
   },
 ];
