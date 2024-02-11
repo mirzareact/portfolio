@@ -1,5 +1,5 @@
 import React, { Suspense, useEffect, useState } from "react";
-import { Canvas, events } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
@@ -9,9 +9,8 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={4} />
+      <hemisphereLight intensity={2} />
 
-      <pointLight intensity={1} />
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.35 : 0.65}
