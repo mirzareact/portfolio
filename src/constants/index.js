@@ -149,7 +149,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met friend who truly care about their clients' success like my friend does.",
+      "I've never met friend who truly cares about their clients' success like my friend does.",
     name: "Nedim Neimarlija",
     designation: "Friend",
     company: "Mirza",
@@ -157,7 +157,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After my friend optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After my friend optimized our website, our traffic increased by 50%. We can't thank him enough!",
     name: "Sanin Kambur",
     designation: "Friend",
     company: "Mirza",
