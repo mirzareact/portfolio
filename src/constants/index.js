@@ -185,7 +185,7 @@ const projects = [
       },
     ],
     image: skola,
-    main_link: "https://gimnazija.netlify.app/",
+    main_link: "https://gimnazijakakanj.edu.ba",
     source_code_link:
       "https://github.com/gimnazijakakanjwebstranica/webStranicaSkole",
   },
