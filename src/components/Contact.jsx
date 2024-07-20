@@ -31,6 +31,12 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    if(form.name == '' || form.email== '' || form.message == ''){
+      setLoading(false);
+          alert("Fill in all the given fields to send a message");
+          return
+    }
+
     //service_p1jywag
     //template_hbcpo1s
     //J-MUtp1lN64juXVuz
